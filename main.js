@@ -16,4 +16,4 @@ const app = http.createServer((request, response) => {
 	response.end();
 });
 
-app.listen(3000);
+app.listen(process.env.PORT || 3000);
